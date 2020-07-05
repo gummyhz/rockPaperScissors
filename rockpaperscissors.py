@@ -14,10 +14,13 @@ def get_winner(user):
     choice = ""
     if randInt == 1:
         choice = "rock"
+        print(1)
     elif randInt == 2:
         choice == "paper"
+        print(2)
     elif randInt == 3:
         choice == "scissors"
+        print(3)
 
     # 3. Determine the winner based on what the user chose and what the computer chose
     if (user == "rock" and choice == "scissors") or (user == "scissors" and choice == "paper") or (user == "paper" and choice == "rock"):
